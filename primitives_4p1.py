@@ -8,19 +8,19 @@ def count_bits(x):
   return(num_bits)
 
 def count_parity(x):
-  print('number received: ' + str(x))
+  # print('number received: ' + str(x))
   num_bits = count_bits(x)
   if(num_bits % 2) == 1:
-    print('parityBit = 1')
+    # print('parityBit = 1')
     return(1)
   else:
-    print("parityBit is 0")
+    # print("parityBit is 0")
     return(0)
 
 
 def count_lookupParity(x):
-  BIT_MASK = 0xF
-  MASK_SIZE = 4
+  BIT_MASK = 0xFFFF
+  MASK_SIZE = 16
    
   COMPUTEDPARITY={ \
     0b0000: 0, \
@@ -48,7 +48,7 @@ def count_lookupParity(x):
 
   result = result0 ^ result1^result2^result3
   return(result)
-  
 
+  
 if __name__ == "__main__":
   count_bits()
