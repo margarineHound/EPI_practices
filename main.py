@@ -1,8 +1,8 @@
 import primitives_4p1
-import primitives_4p3
+import primitives_4p3, primitives_4p11
 import sys
 import time
-from dataclass import dataclass 
+# from dataclass import dataclass
 
 ####primitives_4p1.py related codes
 # global  = dict()
@@ -41,3 +41,8 @@ from dataclass import dataclass
 #val = 21
 #result = primitives_4p3.reverse_bits_naive(val, 5)
 #print(f'the result of your operation for {bin(val)}: {result}: {bin(result)}')
+
+###primtivies_4p11.py relating
+rect1 = primitives_4p11.Rectangle(3,3,4,1)
+rect2 = primitives_4p11.Rectangle(1,1,2,2)
+primitives_4p11.intersectionFinder(rect1, rect2)
