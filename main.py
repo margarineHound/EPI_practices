@@ -43,6 +43,6 @@ import time
 #print(f'the result of your operation for {bin(val)}: {result}: {bin(result)}')
 
 ###primtivies_4p11.py relating
-rect1 = primitives_4p11.Rectangle(3,3,4,1)
-rect2 = primitives_4p11.Rectangle(1,1,2,2)
-primitives_4p11.intersectionFinder(rect1, rect2)
+# rect1 = primitives_4p11.Rectangle(3,3,4,1)
+# rect2 = primitives_4p11.Rectangle(1,1,2,2)
+# primitives_4p11.intersectionFinder(rect1, rect2)
